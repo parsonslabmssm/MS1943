@@ -10,3 +10,6 @@ We next performed gene set enrichment analysis that capture pathways perturbed t
 
 Scripts available under the folder "R/Pathways"
 
+
+### Developed by Dr. Tiphaine Martin - Icahn School of Medicine at Mount Sinai - Tisch Cancer Institute - https://github.com/TiphaineCMartin
+

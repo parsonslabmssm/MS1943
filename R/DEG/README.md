@@ -8,3 +8,6 @@ We performed the differential expression between the two MDA-MD-468 cell lines t
 
 Scripts available under the folder "R/DGE"
 
+
+### Developed by Dr. Tiphaine Martin - Icahn School of Medicine at Mount Sinai - Tisch Cancer Institute - https://github.com/TiphaineCMartin
+

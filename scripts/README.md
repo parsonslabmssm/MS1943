@@ -12,3 +12,6 @@ To run the pipeline, please update the absolute paths and use the command line o
 bsub < RNAseq_LSFjob.sh
 
 if you have another scheduler, you just need to adapt the script RNAseq_LSFjob.sh to your scheduler.
+
+
+### Developed by Dr. Tiphaine Martin - Icahn School of Medicine at Mount Sinai - Tisch Cancer Institute - https://github.com/TiphaineCMartin

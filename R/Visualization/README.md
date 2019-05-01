@@ -7,3 +7,8 @@ We produced RNA-seq data for 4 samples ( MDA-MD-468 breast cancer cell lines): 2
 We produced several heatmaps and plots using R scripts.
 
 Scripts available under the folder "R/visualisation"
+
+
+
+### Developed by Dr. Tiphaine Martin - Icahn School of Medicine at Mount Sinai - Tisch Cancer Institute - https://github.com/TiphaineCMartin
+
