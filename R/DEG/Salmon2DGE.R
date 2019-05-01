@@ -120,3 +120,16 @@ res2Ordered_ensembl <- res2Ordered_ensembl[order(res2Ordered_ensembl$pvalue,-abs
 ##Write the final file
 write.csv(as.data.frame(res2Ordered_ensembl), 
           file=paste0(dir,"/MS1943_DGE_results_ENSEMBL.csv"))
+
+##save Report in HTML
+#Entrez id https://www.biostars.org/p/275619/
+library(ReportingTools)
+des2Report <- HTMLReport(shortName = 'RNAseq_analysis_with_DESeq2',
+                         title = 'RNA-seq analysis of differential expression of EZH2 degrader using DESeq2',
+                         reportDirectory = "reports", basePath=dir)
+
+#annotation.db="org.Hs.eg.db",
+publish(dds_desq2,des2Report, pvalueCutoff=0.05,
+        conditions = colData(dds_desq2)$treatedID,
+        reportDir=paste0(dir,"/reports"))
+finish(des2Report)
