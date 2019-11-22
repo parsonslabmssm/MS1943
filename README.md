@@ -1,5 +1,10 @@
 # MS1943
-Scripts associated with the paper "Discovery of a first-in-class EZH2 selective degrader", Ma, A. and Stratikopoulos, E. et al., under review, 2019
+Scripts associated with the paper "Discovery of a first-in-class EZH2 selective degrader", Ma, A. and Stratikopoulos, E. et al., Nature Chemistry Biology, 2019
+
+if you used these scripts and adapted to your project, please cite our paper:
+
+Ma, A. and Stratikopoulos, E. et al., Nature Chemistry Biology, 2019, https://doi.org/10.1038/s41589-019-0421-4
+
 
 We produced RNA-seq data for 4 samples ( MDA-MD-468 breast cancer cell lines): 2 under DMSO and 2 under MS1943 degrader.
 

@@ -55,7 +55,11 @@ require(pathview)
 #view different pathways
 pv.out.list <- sapply(path.ids2, function(pid) 
   pathview(gene.data = exp.fc, pathway.id = pid,
-           species = "Homo sapiens", out.suffix=out.suffix))
+           species = "Homo sapiens", out.suffix=out.suffix,
+           low = list(gene ="#998ec3"),
+           mid = list(gene = "#f7f7f7"),
+           high = list(gene ="#f1a340"),
+           res=900,cex=0.1))
 
 #### GOseq
 ## significant
